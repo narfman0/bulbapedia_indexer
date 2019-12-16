@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bulbapedia_indexer (0.1.0)
+    bulbapedia_scraper (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -16,7 +16,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bulbapedia_indexer!
+  bulbapedia_scraper!
   bundler (~> 2.0)
   minitest (~> 5.0)
   nokogiri (~> 1.10)

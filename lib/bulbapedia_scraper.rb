@@ -1,9 +1,9 @@
 require 'nokogiri'
 require 'open-uri'
 
-require 'bulbapedia_indexer/version'
+require 'bulbapedia_scraper/version'
 
-module BulbapediaIndexer
+module BulbapediaScraper
   @@url_root = 'https://www.pokemon.com/us/pokedex/'
   class Error < StandardError; end
 

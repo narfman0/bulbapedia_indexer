@@ -1,23 +1,23 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "bulbapedia_indexer/version"
+require "bulbapedia_scraper/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "bulbapedia_indexer"
-  spec.version       = BulbapediaIndexer::VERSION
+  spec.name          = "bulbapedia_scraper"
+  spec.version       = BulbapediaScraper::VERSION
   spec.authors       = ["Jon Robison"]
   spec.email         = ["narfman0@gmail.com"]
 
-  spec.summary       = %q{Bulbapedia Indexer}
-  spec.description   = %q{Bulbapedia Indexer to archive the site}
-  spec.homepage      = "https://github.com/narfman0/bulbapedia_indexer"
+  spec.summary       = %q{Bulbapedia Scraper}
+  spec.description   = %q{Bulbapedia Scraper to archive the site}
+  spec.homepage      = "https://github.com/narfman0/bulbapedia_scraper"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "http://mygemserver.com"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/narfman0/bulbapedia_indexer"
-  spec.metadata["changelog_uri"] = "https://github.com/narfman0/bulbapedia_indexer/CHANGELOG"
+  spec.metadata["source_code_uri"] = "https://github.com/narfman0/bulbapedia_scraper"
+  spec.metadata["changelog_uri"] = "https://github.com/narfman0/bulbapedia_scraper/CHANGELOG"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
