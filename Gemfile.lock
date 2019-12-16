@@ -6,6 +6,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    byebug (11.0.1)
     mini_portile2 (2.4.0)
     minitest (5.13.0)
     nokogiri (1.10.7)
@@ -18,9 +19,10 @@ PLATFORMS
 DEPENDENCIES
   bulbapedia_scraper!
   bundler (~> 2.0)
+  byebug (~> 11.0)
   minitest (~> 5.0)
   nokogiri (~> 1.10)
   rake (~> 10.0)
 
 BUNDLED WITH
-   2.0.1
+   2.0.2

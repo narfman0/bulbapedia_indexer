@@ -8,8 +8,9 @@ class BulbapediaScraperTest < Minitest::Test
   end
 
   def test_get_pokemon_name_bulbasaur
-    name = get_pokemon_name(1)
-    puts name
-    assert name == 'Bulbasaur'
+    pokemon = get_pokemon(1)
+    puts pokemon.name
+    assert pokemon.number == 1
+    assert pokemon.name == 'Bulbasaur'
   end
 end
